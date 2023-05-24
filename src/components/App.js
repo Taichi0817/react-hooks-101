@@ -22,10 +22,12 @@ const  App = () => {
       <h4>イベント一覧</h4>
       <table className="table table-hover">
         <thead>
-          <th>ID</th>
-          <th>タイトル</th>
-          <th>ボディー</th>
-          <th></th>
+          <tr>
+            <th>ID</th>
+            <th>タイトル</th>
+            <th>ボディー</th>
+            <th></th>
+          </tr>
         </thead>
         <tbody>
 
